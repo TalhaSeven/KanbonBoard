@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Kanbon Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Create columns and tasks with React components Enable drag and drop functionality for both columns and tasks using dnd-kit Edit the content and title of tasks and columns with inline editing Style the UI with TailwindCSS utility classes This project is a great way to practice your React skills and learn some new techniques and libraries. You will also end up with a useful tool that you can use for your own projects or customize further.
 
-Currently, two official plugins are available:
+## Technologies
+- React
+- dnd-kit
+- TailwindCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+# Kanbon Projesi
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Açıklama
+React bileşenleri ile sütunlar ve görevler oluşturun dnd-kit kullanarak hem sütunlar hem de görevler için sürükle ve bırak işlevselliğini etkinleştirin Satır içi düzenleme ile görevlerin ve sütunların içeriğini ve başlığını düzenleyin TailwindCSS yardımcı sınıfları ile kullanıcı arayüzünü şekillendirin Bu proje, React becerilerinizi geliştirmek ve bazı yeni teknikler ve kütüphaneler öğrenmek için harika bir yoldur. Ayrıca kendi projeleriniz için kullanabileceğiniz veya daha fazla özelleştirebileceğiniz kullanışlı bir araç elde edeceksiniz.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Teknolojiler
+- React
+- dnd-kit
+- TailwindCSS
